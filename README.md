@@ -1,6 +1,6 @@
 # Projet Docker - Lucas Desnoue & Erwan Gay-Chanteloup
 
-## Instalation 
+## Installation 
 
 1. Clonez le repertoire dans votre espace de travail Docker `$ git clone https://github.com/Wawan4137/Docker.git` 
 2. `$ docker-compose up -d`
@@ -27,7 +27,7 @@
 `$ mkdir -p config/jwt`
 
 6. Generez private.pem, le code est : admin
-`$ openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096`
+> `$ openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096`
 
 7. Generez public.pem
 `$ openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout`
