@@ -46,9 +46,9 @@
 ## Accéder à ProjetAPI
 
 1. Lancez un navigateur web
-2. Rendez-vous à l'adresse : 127.0.0.1:5000
+2. Rendez-vous à l'adresse : https://127.0.0.1:5000/api
 
 ## Accéder à PHPMyAdmin
 
 1. Lancez un navigateur web
-2. Rendez-vous à l'adresse : 127.0.0.1:8080
+2. Rendez-vous à l'adresse : https://127.0.0.1:8080
