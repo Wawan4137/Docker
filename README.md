@@ -12,27 +12,35 @@
 ### Installation du Projet ForumAPI
 
 1. Une fois dans la console du conteneur, entrez dans le dossier ForumAPI 
+
 `$ cd ForumAPI`
 
 2. Installez les dependances 
+
 `$ composer install`
 
 3. Créez la base de données 
+
 `$ php bin/console doctrine:database:create`
 
 4. Effectuez la migration 
+
 `$ php bin/console doctrine:migrations:migrate`
 
 5. Créer le repertoire de certifications JWT
+
 `$ mkdir -p config/jwt`
 
 6. Generez private.pem, le code est : admin
-> `$ openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096`
+
+`$ openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096`
 
 7. Generez public.pem
+
 `$ openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout`
 
 8. Demarrez le serveur symfony
+
 `$ symfony serve`
 
 ## Accéder à ProjetAPI
