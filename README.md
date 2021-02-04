@@ -52,3 +52,6 @@
 
 1. Lancez un navigateur web
 2. Rendez-vous à l'adresse : http://127.0.0.1:8080
+
+> Utilisateur : root
+> Mot de passe : root
