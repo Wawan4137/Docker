@@ -56,3 +56,7 @@
 > Utilisateur : root
 
 > Mot de passe : root
+
+## Si le dossier ForumAPI n'est pas disponnible
+
+Se réferencer au Readme du projet en question https://github.com/mutergfp/ForumAPI
